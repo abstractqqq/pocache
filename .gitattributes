@@ -1,0 +1,2 @@
+*.ipynb -linguist-detectable
+examples/* -linguist-detectable

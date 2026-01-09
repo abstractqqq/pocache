@@ -1,6 +1,7 @@
 # Pocache
 
-Caching for functions that take Polars dataframes as input.
+Caching for functions that take Polars dataframes as input. I do not intend to publish this as a package
+because you can just copy it.
 
 ## Limitations
 

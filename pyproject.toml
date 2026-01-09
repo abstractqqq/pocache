@@ -1,7 +1,7 @@
 [project]
 name = "pocache"
 version = "0.1.0"
-description = "Add your description here"
+description = "Simple function cache for functions that have Polars DataFrame(s) as input(s)."
 readme = "README.md"
 requires-python = ">=3.10"
 dependencies = [

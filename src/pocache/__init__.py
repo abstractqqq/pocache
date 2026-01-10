@@ -123,7 +123,7 @@ class Session():
                         # If you care about that, use_col_names = True
                         if use_col_names:
                             h.update(len(cols).to_bytes(length=16)) # lol you won't have this many columns
-                            h.update(("".join(cols)).encode("utf-8"))
+                            h.update(("".join(enumerate(cols))).encode("utf-8"))
         
                         # Calculate row hash
                         h.update(
